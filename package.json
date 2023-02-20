@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "The http api part 2 assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awc1437332/http-api-assignment-ii.git"
+  },
+  "author": "Andrew Carbonari",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/awc1437332/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/awc1437332/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
